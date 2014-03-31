@@ -1,0 +1,15 @@
+MeMeShare 1.0
+--------------------
+MeMeShare is written on CodeIgniter framework and it supports most of the database systems. Check CodeIgniter site for more details.
+
+Steps to setup MeMeShare:
+
+1. After deploying on the server, go to application/config/ directory of the project to add the configuration for the database and the google O2Auth
+2. Set the database connection details in the application/config/database.php
+3. Set the google application credentials in the application/config/google.php
+4. Run the SQL script found in setup/sql/ directory to create the database structure for the app in the database.
+5. Go to the assets/img/ and replace the emailLogo.png, logo.png, productlogo.png with custom ones.
+6. You should be set. Try browsing to the index page of the application.
+
+Enjoy!
+

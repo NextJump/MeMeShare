@@ -1,0 +1,131 @@
+#export-container input[type='date'] {
+    color: #69D2E7;
+    font-size: 14px;
+    background: #fff;
+    text-shadow: none;
+    height: 37px;
+}
+#export-container .ui-shadow-inset {
+    -moz-box-shadow: 0px 1px 2px #d1d4be;
+    -webkit-box-shadow: 0px 1px 2px #d1d4be;
+    box-shadow: 0px 1px 2px #d1d4be;
+    border: 1px solid #d1d4be;
+    background: #fff;
+}
+#export-container .ui-corner-all, #export-container .ui-btn-corner-all {
+    -webkit-border-radius: 0;
+    border-radius: 0;
+}
+#export-container .ui-btn,
+#admin-family-container .ui-btn,
+#admin-mentor-container .ui-btn,
+#admin-house-container .ui-btn {
+    border-radius: 0;
+    background: #f38630;
+    color: #fff;
+    font-size: 110%;
+    text-transform: uppercase;
+    text-shadow: none;
+    border: none;
+    margin-top: 1em;
+}
+
+#admin-family-container .ui-btn,
+#admin-mentor-container .ui-btn,
+#admin-house-container .ui-btn {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#export-container {
+    padding-bottom: 1em;
+    margin-bottom: 1.5em;
+}
+
+#addFamilySubmitBtn {
+    background: #F38630;
+    box-shadow: 0 2px 1px #CCCCCC;
+    color: #FFFFFF;
+    display: block;
+    font-family: NoveNormal, Arial, sans-serif;
+    padding: 10px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-top: 1em;
+}
+#addFamilySubmitBtn h3 {
+    font-family: NoveMedium, Arial, sans-serif;
+    font-size: 1.0em;
+    line-height: 1.0em;
+    margin-top: 0;
+    margin-bottom: 5px;
+    text-shadow: none;
+}
+.add-family-container input[type='text'] {
+    height: 24px;
+    color: #69D2E7;
+    font-size: 14px;
+    background: #fff;
+    text-shadow: none;
+}
+.add-family-container input[data-type='search'] {
+    height: 24px;
+}
+.add-family-container .ui-shadow-inset {
+    -moz-box-shadow: 0px 1px 2px #d1d4be;
+    -webkit-box-shadow: 0px 1px 2px #d1d4be;
+    box-shadow: 0px 1px 2px #d1d4be;
+    border: 1px solid #d1d4be;
+    background: #fff;
+}
+.add-family-container div.ui-input-text {
+    margin-top: 0;
+    padding-left: 6px;
+}
+.add-family-container .ui-corner-all, .add-family-container .ui-btn-corner-all {
+    -webkit-border-radius: 0;
+    border-radius: 0;
+}
+.add-family-container .ui-shadow.admin-search-listview {
+    border: none;
+}
+.add-family-container .admin-search-container {
+    margin-bottom: 26px;
+}
+.add-family-container .add-family-error {
+    color: #FF0000;
+    height: 14px;
+    font-size: 12px;
+}
+#admin-family-container {
+    padding-bottom: 1em;
+    margin-bottom: 1.5em;
+}
+.admin-list th {
+    border-bottom: 1px solid #d1d4be;
+    font-size: 110%;
+    text-transform: uppercase;
+}
+.admin-list td {
+    border-bottom: 1px solid #d1d4be;
+}
+.admin-list .family-name,
+.admin-list .house-name,
+.admin-list .mentor-name {
+    color: #F38630;
+    font-weight: bold;
+    margin-bottom: 0;
+    margin-top: 5px;
+    text-transform: uppercase;
+}
+.admin-mentor-list a {
+    text-decoration: underline;
+}
+.admin-mentor-list select {
+    display: none;
+}
+input[type="date"]::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+}

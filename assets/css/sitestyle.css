@@ -1,0 +1,479 @@
+/*//////////////////////////////////////////////////////////////////////////////
+  Core Styles
+  ////////////////////////////////////////////////////////////////////////////*/
+@font-face {
+    font-family: 'NoveNormal';
+    font-style: normal;
+    font-weight: normal;
+    src: url('/assets/fonts/nove/Synthview - Novecentowide-Normal.eot');  /* IE9 Compat Modes */
+    src: url('/assets/fonts/nove/Synthview - Novecentowide-Normal.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('/assets/fonts/nove/Synthview - Novecentowide-Normal.woff') format('woff'), /* Modern Browsers */
+         url('/assets/fonts/nove/Synthview - Novecentowide-Normal.ttf')  format('truetype'), /* Safari, Android, iOS */
+         url('/assets/fonts/nove/Synthview - Novecentowide-Normal.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+@font-face {
+    font-family: 'NoveMedium';
+    font-style: normal;
+    font-weight: normal;
+    src: url('/assets/fonts/nove/Synthview - Novecentowide-Medium.eot');  /* IE9 Compat Modes */
+    src: url('/assets/fonts/nove/Synthview - Novecentowide-Medium.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('/assets/fonts/nove/Synthview - Novecentowide-Medium.woff') format('woff'), /* Modern Browsers */
+         url('/assets/fonts/nove/Synthview - Novecentowide-Medium.ttf')  format('truetype'), /* Safari, Android, iOS */
+         url('/assets/fonts/nove/Synthview - Novecentowide-Medium.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+@font-face {
+    font-family: 'NoveDemiBold';
+    font-style: normal;
+    font-weight: normal;
+    src: url('/assets/fonts/nove/Synthview - Novecentowide-DemiBold.eot');  /* IE9 Compat Modes */
+    src: url('/assets/fonts/nove/Synthview - Novecentowide-DemiBold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('/assets/fonts/nove/Synthview - Novecentowide-DemiBold.woff') format('woff'), /* Modern Browsers */
+         url('/assets/fonts/nove/Synthview - Novecentowide-DemiBold.ttf')  format('truetype'), /* Safari, Android, iOS */
+         url('/assets/fonts/nove/Synthview - Novecentowide-DemiBold.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+@font-face {
+    font-family: 'NoveBold';
+    font-style: normal;
+    font-weight: normal;
+    src: url('/assets/fonts/nove/Novecentowide-Bold.eot');  /* IE9 Compat Modes */
+    src: url('/assets/fonts/nove/Novecentowide-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('/assets/fonts/nove/Novecentowide-Bold.woff') format('woff'), /* Modern Browsers */
+         url('/assets/fonts/nove/Novecentowide-Bold.ttf')  format('truetype'), /* Safari, Android, iOS */
+         url('/assets/fonts/nove/Novecentowide-Bold.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+@font-face {
+    font-family: 'NoveLight';
+    font-style: normal;
+    font-weight: normal;
+    src: url('/assets/fonts/nove/Novecentowide-Light.eot');  /* IE9 Compat Modes */
+    src: url('/assets/fonts/nove/Novecentowide-Light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('/assets/fonts/nove/Novecentowide-Light.woff') format('woff'), /* Modern Browsers */
+         url('/assets/fonts/nove/Novecentowide-Light.ttf')  format('truetype'), /* Safari, Android, iOS */
+         url('/assets/fonts/nove/Novecentowide-Light.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+a {
+    color: #F38630;
+    text-decoration: none;
+}
+::-webkit-input-placeholder { /* WebKit browsers */
+    color: #93DCEB;
+    font-size: 14px;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: #93DCEB;
+    font-size: 14px;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: #93DCEB;
+    font-size: 14px;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color: #93DCEB;
+    font-size: 14px;
+}
+/*//////////////////////////////////////////////////////////////////////////////
+  Scaffolding
+  ////////////////////////////////////////////////////////////////////////////*/
+/* Next Jump Grid {{{*/
+.nxj-grid {letter-spacing: -0.31em; *letter-spacing: normal; word-spacing: -0.43em; }
+.nxj-unit {display: inline-block; zoom: 1; *display: inline; letter-spacing: normal; word-spacing: normal; vertical-align: top; }
+.size1 {display: block;}
+.size1of2 {width: 50%;}
+.size1of3 {width: 33.33333%;}
+.size2of3 {width: 66.66666%;}
+.size1of4 {width: 25%;}
+.size3of4 {width: 75%;}
+.size1of5 {width: 20%;}
+.size2of5 {width: 40%;}
+.size3of5 {width: 60%;}
+.size4of5 {width: 80%;}
+.size1of6 {width: 16.656%;}
+.size5of6 {width: 83.33%;}
+.size1of8 {width: 12.5%;}
+.size3of8 {width: 37.5%;}
+.size5of8 {width: 62.5%;}
+.size7of8 {width: 87.5%;}
+.size1of12 {width: 8.3333%;}
+.size5of12 {width: 41.6666%;}
+.size7of12 {width: 58.3333%;}
+.size11of12 {width: 91.6666%;}
+.size1of24 {width: 4.1666%;}
+.size5of24 {width: 20.8333%;}
+.size7of24 {width: 29.1666%;}
+.size11of24 {width: 45.8333%;}
+.size13of24 {width: 54.1666%;}
+.size17of24 {width: 70.8333%;}
+.size19of24 {width: 79.1666%;}
+/*}}}*/
+/*//////////////////////////////////////////////////////////////////////////////
+  Convenient re-useable styles
+  ////////////////////////////////////////////////////////////////////////////*/
+.clear {
+    clear: both;
+    height: 0;
+    margin: 0;
+    padding: 0;
+}
+.text-left {
+    text-align: left;
+}
+.text-center {
+    text-align: center;
+}
+.text-right {
+    text-align: right;
+}
+/*//////////////////////////////////////////////////////////////////////////////
+  jQuery Mobile Overrides
+  ////////////////////////////////////////////////////////////////////////////*/
+.ui-body-c {
+    background: #F3F4EB;
+    color: #868974;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.ui-input-search {
+    border: solid 1px #DDE0D7;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.ui-input-search input {
+    color: #69D2E7;
+    font-size: 14px;
+    text-shadow: none;
+}
+.ui-btn-active {
+    border: none;
+    font-family: inherit;
+    text-shadow: none;
+}
+.ui-content {
+    overflow-x: visible;
+    padding: 10px 5px;
+}
+/*//////////////////////////////////////////////////////////////////////////////
+  Custom global styles
+  ////////////////////////////////////////////////////////////////////////////*/
+body {
+    background: #F3F4EB;
+    color: #868974;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5em;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    text-shadow: none;
+}
+.page-header, .ui-bar-imp {
+    background: #69D2E7;
+    background-image: linear-gradient(top, rgb(105,210,231) 17%, rgb(91,195,216) 59%);
+    background-image: -o-linear-gradient(top, rgb(105,210,231) 17%, rgb(91,195,216) 59%);
+    background-image: -moz-linear-gradient(top, rgb(105,210,231) 17%, rgb(91,195,216) 59%);
+    background-image: -webkit-linear-gradient(top, rgb(105,210,231) 17%, rgb(91,195,216) 59%);
+    background-image: -ms-linear-gradient(top, rgb(105,210,231) 17%, rgb(91,195,216) 59%);
+    background-image: -webkit-gradient(
+        linear,
+        left top,
+        left bottom,
+        color-stop(0.17, rgb(105,210,231)),
+        color-stop(0.59, rgb(91,195,216))
+    );
+    border-top: solid 1px transparent;
+    border-bottom: solid 2px #DDDED6;
+    height: 60px;
+}
+.page-header h1.ui-title, .ui-bar-imp h1.ui-title, .page-footer h1 {
+    color: #FFFFFF;
+    font-family: NoveMedium, Arial, sans-serif;
+    font-size: 1.5em;
+    line-height: 1.0em;
+    margin: 0.7em 10%;
+    text-shadow: 0 3px 1px #55BCD7;
+    text-transform: uppercase;
+}
+.page-header h1.ui-title {
+    margin: 0.3em 70px 0;
+}
+.page-header h2.ui-title {
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.2em;
+    margin-top: 0;
+    text-shadow: none;
+    text-transform: uppercase;
+}
+.page-header .navmenu-link {
+    left: 0;
+    margin-left: 0;
+}
+.page-header .navmenu-link .ui-btn-inner, .page-footer .ui-btn-inner {
+    padding: 0;
+}
+.page-header .ui-btn, .page-header .ui-btn .ui-btn-inner {
+    background: none;
+    border: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.page-header .ui-btn {
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    border-right: solid 1px #5BC3D8;
+    height: 30px;
+    left: 0;
+    padding: 15px;
+    top: 0;
+    width: 30px;
+}
+.page-content {
+    font-size: 12px;
+    margin: 0 auto;
+    max-width: 720px;
+    min-width: 310px;
+    position: relative;
+}
+.page-footer .log-interaction-button {
+    background: #F38630;
+    color: white;
+    line-height: 60px;
+    text-transform: uppercase;
+    vertical-align: bottom;
+    width: 100%;
+}
+.page-footer .log-interaction-button h1 {
+    line-height: 60px;
+    margin: 0;
+    text-shadow: none;
+}
+/*//////////////////////////////////////////////////////////////////////////////
+  Navigation Menu
+  ////////////////////////////////////////////////////////////////////////////*/
+#navmenu {
+    background: #272727;
+    font-family: NoveMedium, Arial, sans-serif;
+    text-shadow: none;
+}
+#navmenu h2 {
+    color: #FFFFFF;
+    font-size: 1.1em;
+    text-transform: uppercase;
+}
+#navmenu .ui-btn-inner {
+    border-color: #3E3E3E;
+}
+#navmenu li.active {
+    background: #000000;
+}
+#navmenu .ui-link-inherit {
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+}
+.menu-btn-logout p.muted {
+    color: #777777;
+    line-height: 1.0em;
+}
+.menu-btn-logout .light {
+    font-family: NoveLight, Arial, sans-serif;
+}
+/*//////////////////////////////////////////////////////////////////////////////
+  Useful Icons
+  ////////////////////////////////////////////////////////////////////////////*/
+i.icon, i.icon-lg, i.icon-sm, i.menu-icon, i.header-icon {
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin-top: 0;
+    padding: 0;
+    vertical-align: middle;
+}
+i.icon-sm {
+    background-image: url('/assets/img/icons_sm.png');
+    height: 30px;
+    line-height: 30px;
+    width: 30px;
+}
+.icon-sm.icon-family, .icon-sm.family {
+    background-position: -6px -6px;
+}
+.icon-sm.icon-house, .icon-sm.house {
+    background-position: -48px -6px;
+}
+.icon-sm.icon-duration, .icon-sm.duration {
+    background-position: -90px -6px;
+}
+.icon-sm.icon-email, .icon-sm.email {
+    background-position: -130px -6px;
+}
+.icon-sm.icon-phone, .icon-sm.phone {
+    background-position: -170px -6px;
+}
+.icon-sm.icon-like, .icon-sm.like {
+    background-position: -216px -6px;
+}
+.icon-sm.icon-like.active, .icon-sm.like.active {
+    background-position: -216px -48px;
+}
+.icon-sm.icon-comment, .icon-sm.comment {
+    background-position: -258px -6px;
+}
+.icon-sm.icon-comment.disabled, .icon-sm.comment.disabled {
+    background-position: -300px -6px;
+}
+i.icon-lg {
+    background-image: url('/assets/img/icons.png');
+    height: 42px;
+    line-height: 42px;
+    width: 42px;
+}
+.icon-lg.icon-family, .icon-lg.family {
+    background-position: 0 0;
+}
+.icon-lg.icon-house, .icon-lg.house {
+    background-position: -43px 0;
+}
+.icon-lg.icon-duration, .icon-lg.duration {
+    background-position: -85px 0;
+}
+.icon-lg.icon-duration-thirty, .icon-lg.duration-thirty {
+    background-position: -378px 0;
+}
+i.menu-icon {
+    background-image: url('/assets/img/links.png');
+    float: left;
+    height: 42px;
+    line-height: 42px;
+    margin-right: 5px;
+    width: 42px;
+}
+.menu-icon.bars {
+    background-image: url('/assets/img/menu-icons.png');
+    background-position: -3px 50%;
+    width: 31px;
+    height: 31px;
+    margin: 0;
+}
+.menu-icon.profile, .menu-icon.profile-male {
+    background-position: 0 0;
+}
+.menu-icon.profile-female {
+    background-position: -42px 0;
+}
+.menu-icon.leaderboard {
+    background-position: -84px 0;
+}
+.menu-icon.log {
+    background-position: -126px 0;
+}
+.menu-icon.home {
+    background-position: -168px 0;
+}
+.menu-icon.family {
+    background-position: -210px 0;
+}
+.menu-icon.admin {
+    background-position: -252px 0;
+}
+i.header-icon {
+    background-image: url('/assets/img/menu-icons.png');
+    float: left;
+    height: 31px;
+    line-height: 31px;
+    width: 31px;
+}
+.header-icon.x {
+    background-position: -31px 0;
+}
+.active .menu-icon.profile, .active .menu-icon.profile-male, .menu-icon.profile.active, .menu-icon.profile-male.active {
+    background-position: 0 -42px;
+}
+.active .menu-icon.profile-female, .menu-icon.profile-female.active {
+    background-position: -42px -42px;
+}
+.active .menu-icon.leaderboard, .menu-icon.leaderboard.active {
+    background-position: -84px -42px;
+}
+.active .menu-icon.log, .menu-icon.log.active {
+    background-position: -126px -42px;
+}
+.active .menu-icon.home, .menu-icon.home.active {
+    background-position: -168px -42px;
+}
+.active .menu-icon.family, .menu-icon.family.active {
+    background-position: -210px -42px;
+}
+.active .menu-icon.admin, .menu-icon.admin.active {
+    background-position: -252px -42px;
+}
+/*//////////////////////////////////////////////////////////////////////////////
+  Popup Dialogs
+  ////////////////////////////////////////////////////////////////////////////*/
+.popup-dialog {
+    min-width: 290px;
+    max-width: 500px;
+}
+.popup-dialog .ui-bar-imp h1.ui-title {
+    font-family: NoveNormal, Arial, sans-serif;
+    margin-left: 10px;
+    text-align: left;
+}
+.popup-dialog a[data-rel="back"] {
+    margin: 13px 10px 0 0;
+}
+.popup-dialog a[data-rel="back"] .ui-btn-inner {
+    border: 0;
+}
+.popup-dialog .ui-content {
+    padding: 10px;
+}
+/*//////////////////////////////////////////////////////////////////////////////
+  Search (Autocomplete)
+  ////////////////////////////////////////////////////////////////////////////*/
+.search-container {
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.search-listview {
+    background: #FFFFFF;
+    border: none;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+}
+.search-listview .ui-li {
+    background: #FFFFFF;
+}
+.search-listview .ui-li a {
+    color: #F38630;
+    font-family: NoveNormal, Arial, sans-serif;
+    font-weight: normal;
+    text-shadow: none;
+}
+.search-listview .ui-li a strong {
+    font-family: NoveDemiBold, Arial, sans-serif;
+}
+.search-listview .additional-details, .search-listview .house {
+    color: #868974;
+    font-family: Arial;
+    font-size: 12px;
+}
+.search-listview .role {
+    font-weight: bold;
+}
+.search-listview .mentor-profile-img {
+    width: 42px;
+}
+.search-listview .ui-li-thumb {
+    position: relative;
+}
+.search-listview .ui-li-has-thumb .ui-btn-inner a.ui-link-inherit {
+    line-height: 1.0em;
+    min-height: 0;
+    padding-left: 10px;
+}

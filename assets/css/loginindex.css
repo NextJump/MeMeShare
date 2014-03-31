@@ -1,0 +1,76 @@
+body {
+    background: #69D2E7;
+}
+.ui-body-c, .ui-overlay-c {
+    background: #69D2E7;
+}
+#container {
+    background: url('/assets/img/bg.jpg') no-repeat;
+    margin: 0 auto;
+    position: relative;
+    width: 320px;
+}
+.login-container {
+    text-shadow: none;
+}
+.logo {
+    background: url('/assets/img/logo.png') no-repeat;
+    height: 180px;
+    margin: 15px auto 0;
+    position: relative;
+    width: 200px;
+}
+.minutes-logged {
+    color: #FFFFFF;
+    margin-top: 10px;
+    text-shadow: 0 3px 1px #67D0E6;
+    text-transform: uppercase;
+}
+.minutes-logged h1 {
+    color: #0A8DA1;
+    font-family: NoveBold, Arial, sans-serif;
+    font-size: 3.5em;
+    line-height: 1.25em;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.minutes-logged h2 {
+    font-size: 2.0em;
+}
+.minutes-logged h3 {
+    font-size: 1.5em;
+}
+.minutes-logged h2, .minutes-logged h3 {
+    font-family: NoveMedium, Arial, sans-serif;
+    font-weight: normal;
+    line-height: 1.25em;
+    margin: 0;
+}
+#login-button {
+    background: #F38630;
+    box-shadow: 0 2px 1px #59B3C5;
+    color: #FFFFFF;
+    display: block;
+    font-family: NoveMedium, Arial, sans-serif;
+    margin: 20px auto 0;
+    padding: 10px;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 260px;
+}
+#login-button h3 {
+    font-size: 2.0em;
+    line-height: 1.0em;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+#login-button .subtext {
+    color: #F8BC99;
+    font-size: 1.25em;
+    line-height: 1.25em;
+}
+.page-content {
+    padding-left: 0;
+    padding-right: 0;
+}

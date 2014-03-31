@@ -1,0 +1,265 @@
+#mentor-profile-info .mentor-image {
+    min-width: 120px;
+    float: left;
+    margin-right: 10px;
+}
+#mentor-profile-info .mentor-image img {
+    background: #FFFFFF;
+    border: solid 1px #DDE0D7;
+    padding: 4px;
+    max-width: 110px;
+}
+#mentor-profile-info .mentor-details {
+    overflow: hidden;
+    min-width: 180px;
+}
+#mentor-profile-info .mentor-name {
+    color: #F38630;
+    font-weight: bold;
+    margin-bottom: 0;
+    margin-top: 0;
+    text-transform: uppercase;
+}
+#mentor-profile-info .upper-border-line {
+    border-bottom: solid 1px #DDE0D7;
+    clear: both;
+    width: 100%;
+}
+#mentor-profile-info .lower-border-line {
+    border-bottom: solid 1px #FFFFFF;
+    clear: both;
+    width: 100%;
+}
+#mentor-profile-info .mentor-join-date {
+    width: 100%;
+    font-size: 90%;
+}
+#mentor-profile-info .mentor-phone {
+    line-height: 3em;
+    font-weight: bold;
+    font-size: 16px;
+}
+#mentor-profile-info .mentor-email {
+    line-height: 3em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+#mentor-profile-info i.icon-sm {
+    display: inline;
+    float: left;
+    margin-right: 5px;
+}
+#mentor-profile-info .icon-phone {
+    margin-top: 7px;
+}
+#mentor-profile-info .icon-email {
+    margin-top: 3px;
+}
+#mentor-profile-info .mentor-interaction-summary i.icon-lg {
+    display: block;
+    float: none;
+    margin: 0 auto; 
+}
+#mentor-profile-info .mentor-interaction-summary {
+    padding: .5em 0;
+}
+.mentor-interaction-summary .size1of3 {
+    width: 33%;
+}
+#mentor-profile-info .mentor-family {
+    border-right: solid 1px #DDE0D7;
+}
+#mentor-profile-info .mentor-house {
+    border-right: solid 1px #DDE0D7;
+}
+#mentor-profile-info .mentor-minutes {
+}
+#container-profile .interaction-feed {
+    margin-top: 10px;
+}
+.interaction-feed-item {
+    margin-bottom: 10px;
+}
+.interaction-feed-item-core {
+    border: solid 1px #E0E4CC;
+}
+.interaction-feed-item-details {
+    background: #FFFFFF;
+}
+.interaction-feed-item-feedback {
+    background: #D8DBC4;
+    border-bottom: solid 2px #D1D4BE;
+    border-top: solid 2px #D1D4BE;
+}
+.interaction-feed-item-responses {
+    padding: 0 10px;
+}
+.interaction-feed-item-details {
+    padding: 10px;
+}
+.interaction-feed-item-feedback {
+    padding: 0 0 0 10px;
+}
+.interaction-mentor .mentor-profile-image {
+    float: left;
+    margin-right: 10px;
+    width: 50px;
+}
+.interaction-mentor .mentor-details {
+    min-width: 225px;
+    overflow: hidden;
+}
+.mentor-name {
+    color: #F38630;
+    font-weight: bold;
+    margin-bottom: 0;
+    margin-top: 0;
+    text-transform: uppercase;
+}
+h3.mentor-name {
+    line-height: 1.17em;
+    margin-bottom: 5px;
+}
+.interaction-family .interaction-family-detail {
+    color: #B3B3B3;
+    font-size: 14px;
+    line-height: 30px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.interaction-family-detail i.icon-sm {
+    display: inline;
+    float: left;
+    margin-right: 5px;
+}
+.interaction-family-detail .family-name, .interaction-family-detail .duration {
+    color: #AAAAAA;
+    font-size: 13px;
+    line-height: 13px;
+    margin-bottom: 1px;
+    margin-top: 3px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.interaction-family-detail .house-name, .interaction-family-detail .minutes {
+    color: #BBBBBB;
+    font-size: 10px;
+    line-height: 10px;
+    margin-bottom: 0;
+    margin-top: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-transform: uppercase;
+}
+.interaction-feed-item-feedback {
+    text-shadow: none;
+}
+.interaction-feed-item-feedback .date, .interaction-feed-item-feedback .like, .interaction-feed-item-feedback .comment {
+    height: 30px;
+    line-height: 16px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+.interaction-feed-item-feedback .subdued {
+    color: #a5a892;
+    font-size: 90%;
+}
+.interaction-feed-item-feedback .like a, .interaction-feed-item-feedback .comment a {
+    border-left: solid 1px #D1D4BE;
+    display: block;
+    font-weight: bold;
+    height: 100%;
+    width: 100%;
+}
+.response-likes {
+    margin: 10px 0 0;
+    overflow: hidden;
+}
+.response-comments-lnk-container {
+    font-size: 90%;
+    text-transform: uppercase;
+}
+.response-comment, .response-like {
+    border-bottom: solid 1px #DDE0D7;
+    border-top: solid 1px #FFFFFF;
+    font-size: 12px;
+    line-height: 1.25em;
+    padding: 5px;
+    padding-left: 0;
+}
+.response-comment:first-child, .response-like:first-child {
+    border-top-color: transparent;
+}
+.response-comment:last-child, .response-like:last-child {
+    border-bottom-color: transparent;
+    padding-bottom: 20px;
+}
+.response-comment .comment-img, .response-like .like-img {
+    float: left;
+    margin-right: 10px;
+    width: 40px;
+}
+.response-comment .comment-img img, .response-like .like-img img {
+    width: 40px;
+}
+.response-comment .comment-body, .response-like .like-body {
+    min-width: 215px;
+    overflow: hidden;
+}
+.response-comment .comment-text, .response-like .like-text {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+.response-comment .comment-date, .response-like .like-date {
+    color: #CACCB8;
+    font-size: 1.0em;
+}
+.comment-dialog .comments {
+    max-height: 200px;
+    margin-bottom: 10px;
+    overflow: auto;
+}
+#comment {
+    font-size: 14px;
+    margin-top: 0;
+}
+#post-button {
+    background: #F38630;
+    box-shadow: 0 2px 1px #CCCCCC;
+    color: #FFFFFF;
+    display: block;
+    font-family: NoveNormal, Arial, sans-serif;
+    padding: 10px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+#post-button h3 {
+    font-family: NoveMedium, Arial, sans-serif;
+    font-size: 1.0em;
+    line-height: 1.0em;
+    margin-top: 0;
+    margin-bottom: 5px;
+    text-shadow: none;
+}
+.post-comment-container .comment {
+    background: #FFFFFF;
+    border: solid 1px #D1D4BE;
+    color: #69D2E7;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    -webkit-box-shadow: 0 1px 2px #D1D4BE;
+    box-shadow: 0 1px 2px #D1D4BE;
+}
+.view-more {
+    margin-bottom: 30px;
+    margin-top: 30px;
+    text-transform: uppercase;
+}
+.search-container {
+    padding-bottom: 10px;
+}
